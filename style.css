@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+    color: #4E2A84;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.form-body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 50, .8), rgba(0, 0, 50, .8)), url('./img/signup-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-wrap {
+    background: #fff;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0 0 50px #333;
+}
+
+/* Header */
+
+.header h1 {
+    text-align: center;
+    display: block;
+    height: 80px;
+    color: #4E2A84;
+    font-size: 35px;
+}
+
+/* input Field */
+
+.form-input {
+    display: flex;
+    align-items: center;
+    background: #EBEDEC;
+    margin: 30px 15px;
+    border-radius: 3px;
+}
+
+.form-input input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 18px 15px;
+}
+
+.form-input i {
+    margin-left: 15px;
+    color: #aeaeae;
+}
+
+.lost-pw {
+    text-align: center;
+}
+
+/* Button */
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn button.primary {
+    padding: 10px 25px;
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background: #4E2A84;
+}
+
+.btn button.secondary {
+    padding: 10px 25px;
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+}
